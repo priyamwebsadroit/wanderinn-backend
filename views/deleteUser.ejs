@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete Account - WanderInn</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/backend/public/resetPassword.css">
+</head>
+
+<body>
+    <section class="responseContainer">
+
+        <div class="loginOuterBox form-signin ">
+            <h1 class='responseHeading text-center mb-3'>Delete Your Account</h1>
+            <div class="loginInnerBox">
+                <form id="deleteUserForm">
+                    <div class="formBoxs">
+                        <div class="formBox">
+                            <input type="text" name="email" id="email" class="form-control"
+                                placeholder="Email" required="" />
+                        </div>
+                        <div class="formBox">
+                            <input type="text" name="password" id="password" class="form-control"
+                                placeholder="Password" required="" />
+                        </div>
+                    </div>
+                    <div class="btnGroup">
+                        <button class="btn btn-light btn-lg btn-block form-group-3" id="deleteAccountButton" type="submit">
+                            Delete Account
+                        </button>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <script src="/backend/public/deleteUser.js"></script>
+</body>
+
+</html>
